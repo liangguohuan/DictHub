@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/local/bin/dicthub indicator -b
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=DictHub Indicator
+Name=Dict Indicator
+Comment[en_US]=A indictor for DictHub
+Comment=A indictor for DictHub

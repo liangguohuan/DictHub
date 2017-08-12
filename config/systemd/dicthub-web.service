@@ -1,0 +1,11 @@
+[Unit]
+Description=Dict Web Local
+After=network.target
+
+[Service]
+Type=simple
+User=xxx
+ExecStart=/usr/local/bin/dicthub server -b
+
+[Install]
+WantedBy=multi-user.target
